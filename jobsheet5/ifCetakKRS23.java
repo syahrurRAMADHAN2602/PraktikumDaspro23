@@ -20,6 +20,10 @@ public class ifCetakKRS23 {
             System.out.println("Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu");
         }
 
+        System.out.println("--- Hasil dengan Ternary Operator ---");
+        String hasilTernary = uktLunas ? "Boleh cetak KRS" : "Tidak boleh cetak KRS";
+        System.out.println("Hasil ternary: " + hasilTernary);
+
     }
     
 }
